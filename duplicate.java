@@ -12,8 +12,8 @@ class duplicate{
          {
              a[i]= scan.nextInt();      
          }
-
-         for(int i=0;i<n;i++)
+          System.out.println("Duplicate elements are");
+         for(int i=0;i<n-1;i++)
          {
              if(a[Math.abs(a[i])]>=0){
                 a[Math.abs(a[i])]= - a[Math.abs(a[i])];
